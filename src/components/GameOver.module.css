@@ -1,0 +1,9 @@
+.gameOver span {
+    color: #ebfa19;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.gameOver p {
+    padding-bottom: 0.5em;
+}
