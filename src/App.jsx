@@ -19,9 +19,9 @@ const stages = [
   { id: 2, name: 'end' }
 ]
 
-const guessesQty = 3
-
 function App() {
+  const guessesQty = 3
+
   const [gameStage, setGameStage] = useState(stages[0].name)            // Estado para controlar o estágio do jogo
   const [words] = useState(wordsList)                                   // Estado para armazenar a lista de palavras
   
